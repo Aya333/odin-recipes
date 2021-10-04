@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=IBM+Plex+Sans:wght@300&family=PT+Sans&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background-attachment: fixed;
+  background-color: #dadfe1;
+}
+.header h1 {
+  text-align: center;
+  font-size: 35px;
+  font-family: "Lobster", cursive;
+  color: #dd802c;
+}
+
+.header img {
+  width: 50em;
+  height: 450px;
+  margin: auto;
+  display: block;
+  border: transparent;
+  border-radius: 20px;
+}
+h2 {
+  color: #dd802c;
+  font-family: "Cinzel Decorative", cursive;
+  text-align: center;
+}
+
+.inner-header p {
+  color: #c29455;
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+}
+
+.first-span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.first-span ul {
+  /* float: left; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  height: auto;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(10, 56, 100, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  color: #dd802c;
+  text-decoration: none;
+  margin-left: 50px;
+  font-family: "PT Sans", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.second-span ol {
+  border: outset;
+  border-width: 7px;
+  border-radius: 2px;
+  border-color: #669fb2;
+  /* border-color: #dd802c; */
+  color: #c29455;
+  text-align: center;
+  font-size: 22px;
+}
