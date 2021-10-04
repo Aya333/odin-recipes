@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+body {
+  background-attachment: fixed;
+  background-color: #dadfe1;
+}
+
+header img {
+  height: 550px;
+  width: 82em;
+  opacity: 0.8;
+  border: groove;
+  border-width: 10px;
+  margin-right: 55px;
+  border-color: #c29455;
+
+}
+header h1 {
+  font-family: "Dancing Script", cursive;
+  color: #dd802c;
+  text-align: center;
+  font-size: 60px;
+  border: groove;
+  border-width: 10px;
+  border-color: #c29455;
+  opacity: 0.8;
+
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 48px;
+}
+.lunch-rec,
+.desserts-rec {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height: auto;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(10, 56, 100, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  color: #dd802c;
+  text-decoration: none;
+  margin-left: 50px;
+  font-family: "Dancing Script", cursive;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+li a {
+  text-decoration: none;
+  color: #669fb2;
+  font-family: "Dancing Script", cursive;
+}
+
+footer {
+  background-color: #669fb2;
+  color: #dd802c;
+  font-size: 30px;
+  height: 60px;
+  width: auto;
+  flex: 1;
+  text-align: center;
+  margin-top: auto;
+  padding-top: 25px;
+  font-family: "Dancing Script", cursive;
+}
